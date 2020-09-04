@@ -24,7 +24,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(
   cors({
-    origin: "https://front-grades-fullstack.herokuapp.com",
+    origin: "https://frontend-grades-fullstack.herokuapp.com",
   })
 )
 
